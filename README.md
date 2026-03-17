@@ -2,7 +2,7 @@
 ## Nombre: ola
 
 # Paso 0
-1.- Descargar git
+1.- Descargar git<br>
 2.- Descargar VSC
 3.- Crear directorio y abrir VSC
 4.- Abrir terminal y probar los comandos:
