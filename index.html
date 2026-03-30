@@ -5,10 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina ejemplo 01</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {background-color:aqua;}
+        p{border: 3px solid goldenrod;}
+    </style>
 </head>
 <body>
+    <!--Dandole id a las secciones podemos poner botones que nos manden a esas secciones-->
+    <ul id="Links">
+        <li><a href="#primera_pag">Primera Pagina</a></li>
+        <li><a href="#ul">Lista ordenada</a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+    </ul>
     <!--h1 es para crear titulo-->
-    <h1>Hola weyes</h1>
+    <h1 id="primera_pag">Hola weyes</h1>
+    <a href="#Links">Volver</a>
     <!--p es para crear parrafos-->
     <!--Lorem es para poner un texto por defecto-->
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores quis deserunt ipsam debitis, saepe excepturi nobis? Cum beatae magni deserunt in eaque culpa non similique? Dolorum maxime veniam quam hic?</p>
@@ -24,7 +38,7 @@
     <!--El + permite agregar una etiqueta al mismo nivel
         El > permite agregar una etiqueta dentro de la anterior
         ol genera una lista ordenada-->
-    <h2>Lista ordenada</h2>
+    <h2 id="ol">Lista ordenada</h2>
     <!--El type es en que se enumera y el start de donde parte-->
     <ol start="2" type="a">
         <li>xd</li>
@@ -37,7 +51,7 @@
     <!--{} se utliza para agregar texto dentro de la etiqueta
         $ se utiliza para generar numeros desde el 1-->
     <!--Control + d para seleccinar texto igual al seleccionada-->
-    <h2>Lista automatica</h2>
+    <h2 id="ul">Lista automatica</h2>
     <ul>
         <li>Elemento 1 de 6</li>
         <li>Elemento 2 de 6</li>
@@ -56,13 +70,15 @@
         <!-- aside se tuliza para agregar contenido complementario-->
         <aside></aside>
     </main>
-    <!--ul>li*4>a el a espara agregar enlaces, los enlaces van dentro de href
+    <!--ul>li*4>a el a es para agregar enlaces, los enlaces van dentro de href
         el target:_blank es para que abra el enlace en una pestaña nueva-->
     <ul>
         <li><a target="_blank" href="https://portal.inacap.cl">Inacap</a></li>
         <li><a href=""></a></li>
-        <li><a href=""></a></li>
-        <li><a href="personajes.html">Ver personajes</a></li>
+        <li><a target="_blank" href="productos/figuras.html">raton 2</a></li>
+        <li><a target="_blank" href="personajes.html">Ver personajes</a></li>
     </ul>
+    <P>YIYO</P>
+
 </body>
 </html>
