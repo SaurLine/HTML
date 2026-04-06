@@ -1,7 +1,8 @@
 
 
 
-body{padding: 8px 200px;}
+main{padding: 8px 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
 
 p{
     padding: 30px;
@@ -9,4 +10,24 @@ p{
     background-color: beige;
     text-align: justify;
     font-size: 20PX;
+    ;
+}
+
+header{background-color: black;}
+
+nav ul{margin: 0px;
+    list-style: none;
+    display: flex;
+    gap: 20px;}
+header ul a{color: white;}
+
+nav ul li{padding: 20px;
+            text-decoration: none;}
+.p2{
+    background-image: url('../Images/twitch-emote-twitch.gif'),url(../Images/twitch-emote-twitch.gif);
+    background-size: 500px;
+    background-repeat: no-repeat;
+    padding: 100px;
+    background-position: top left, top right;
+    box-shadow: 3px 3px 15px goldenrod;
 }
